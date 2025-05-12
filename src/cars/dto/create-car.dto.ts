@@ -8,6 +8,6 @@ export class createCarDto {
     readonly brand: string;
 
     @IsString()
-    readonly model: number;
+    readonly model: string;
 
 }
