@@ -8,35 +8,11 @@ import { createCarDto, updateCarDto } from './dto';
 export class CarsService {
 
     private cars: Car[] = [
-        {
-            id:uuid(), 
-            brand:"Tesla", 
-            model:"Model 3"
-        },
-        {
-            id:uuid(), 
-            brand:"Ford", 
-            model:"Mustang"
-        },
-        {
-            id:uuid(), 
-            brand:"BMW", 
-            model:"X5"},
-        {
-            id:uuid(), 
-            brand:"Audi", 
-            model:"A6"
-        },
-        {
-            id:uuid(), 
-            brand:"BMW", 
-            model:"X5"
-        },
-        {
-            id:uuid(), 
-            brand:"Audi", 
-            model:"A6"
-        }
+        // {
+        //     id:uuid(), 
+        //     brand:"Tesla", 
+        //     model:"Model 3"
+        // },
     ];  
 
     findAll( ) {
